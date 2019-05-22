@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Display */
+app-home-page > ul:first-child li {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: .5rem;
+    border: .1rem solid gray;
+    cursor: pointer;
+}
+
+app-home-page > ul:first-child li:not(:last-of-type) {
+    margin-right: 1rem;
+}
+
+/*
+Colors
+*/
+.alimentation {
+    color: red;
+}
+.services {
+color: blue;
+}
+.beaute--sante-et-bien-etre {
+    color: purple;
+}
+.restauration {
+    color: yellow;
+}
+.maison-et-deco {
+color: blueviolet;
+}
+.loisirs-et-divertissements {
+    color: brown;
+}
+
+.active {
+    color: white !important;
+    background: gray !important;
+}
